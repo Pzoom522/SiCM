@@ -3,9 +3,9 @@ def send(userId):
 	# Create SQS client
 	sqs = boto3.client(
     	'sqs',
-   	aws_access_key_id="AKIAPNCADUXD3HUR2QMQ",
-    	aws_secret_access_key="vzDKSwqgx57UBUp+OIMwA1uG0sCkwRv/BX4iHHlM",
-	region_name="cn-north-1"
+   	aws_access_key_id=YOUR_OWN_ACCESS_KEY_ID,
+    	aws_secret_access_key=YOUR_OWN_SECRET_ACCESS_KEY,
+	region_name=YOUR_OWN_REGION
 )
 
 	queue_url = 'https://cn-north-1.queue.amazonaws.com.cn/444376591338/sicm'
